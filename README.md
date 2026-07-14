@@ -1,3 +1,8 @@
+> 🀄 **这是 Label Studio 的汉化版本**，基于 [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) 进行了完整的中文本地化，包括前端界面、后端和文档。
+> 英文原版请访问：[github.com/HumanSignal/label-studio](https://github.com/HumanSignal/label-studio)
+
+---
+
 <img src="https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png"/>
 
 ![GitHub](https://img.shields.io/github/license/heartexlabs/label-studio?logo=heartex) ![label-studio:build](https://github.com/HumanSignal/label-studio/workflows/label-studio:build/badge.svg) ![GitHub release](https://img.shields.io/github/v/release/heartexlabs/label-studio?include_prereleases)
