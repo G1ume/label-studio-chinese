@@ -41,7 +41,7 @@ export const recipes = [
     config: `<View>
   <Labels name="label" toName="text">
     <Label value="Person" background="red"/>
-    <Label value="Organization" background="darkorange"/>
+    <Label value="组织" background="darkorange"/>
     <Label value="Fact" background="orange"/>
     <Label value="Money" background="green"/>
     <Label value="Date" background="darkblue"/>

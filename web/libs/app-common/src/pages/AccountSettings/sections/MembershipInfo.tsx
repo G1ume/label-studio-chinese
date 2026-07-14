@@ -58,7 +58,7 @@ export const MembershipInfo = () => {
           role = "Reviewer";
           break;
         case "NO":
-          role = "Pending";
+          role = "待处理";
           break;
       }
 

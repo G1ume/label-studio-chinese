@@ -34,7 +34,7 @@ export const StorageForm = forwardRef(({ onSubmit, target, project, rootClass, s
         skip: true,
         type: "select",
         name: "storage_type",
-        label: "Storage Type",
+        label: "存储类型",
         disabled: !!storage,
         options: storageTypes.map(({ name, title }) => ({
           value: name,
@@ -122,7 +122,7 @@ export const StorageForm = forwardRef(({ onSubmit, target, project, rootClass, s
             Check Connection
           </Button>
           <Button type="submit" aria-label={storage ? "Save storage settings" : "Add storage"}>
-            {storage ? "Save" : "Add Storage"}
+            {storage ? "保存" : "添加存储"}
           </Button>
         </div>
       </Form.Actions>

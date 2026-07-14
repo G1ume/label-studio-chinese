@@ -709,7 +709,7 @@ const Configurator = ({
                 </div>
               )}
               <Button className="w-[120px]" onClick={onSave} waiting={waiting} aria-label="Save configuration">
-                {waiting ? "Saving..." : "Save"}
+                {waiting ? "Saving..." : "保存"}
               </Button>
               {isFF(FF_UNSAVED_CHANGES) && <UnsavedChanges hasChanges={hasChanges} onSave={onSave} />}
             </Form.Actions>

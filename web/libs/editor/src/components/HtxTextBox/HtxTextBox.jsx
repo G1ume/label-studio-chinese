@@ -160,7 +160,7 @@ export class HtxTextBox extends React.Component {
               size="small"
               className="absolute right-tight top-tighter"
               icon={<IconCheck />}
-              aria-label="Save"
+              aria-label="保存"
               data-testid="htx-textbox-save"
               onClick={this.save}
             />
@@ -206,7 +206,7 @@ export class HtxTextBox extends React.Component {
               variant="neutral"
               look="outlined"
               size="small"
-              tooltip="Edit"
+              tooltip="编辑"
               tooltipTheme="Dark"
               leading={<IconPencil />}
               aria-label="Edit Region"

@@ -94,12 +94,12 @@ const TaskSummary = ({ annotations: all, store: annotationStore }: TaskSummaryPr
         ]
       : []),
     {
-      title: "Annotations",
+      title: "标注",
       value: annotations.filter((a) => a.type === "annotation").length,
       info: "Number of submitted annotations. Table shows only submitted results, not current drafts.",
     },
     {
-      title: "Predictions",
+      title: "预测",
       value: annotations.filter((a) => a.type === "prediction").length,
       info: "Number of predictions. They are not included in the agreement calculation.",
     },

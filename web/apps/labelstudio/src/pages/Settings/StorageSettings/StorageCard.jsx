@@ -69,7 +69,7 @@ export const StorageCard = ({ rootClass, target, storage, onEditStorage, onDelet
             waiting={syncing}
             onClick={startSync}
             disabled={notSyncedYet}
-            aria-label="Sync Storage"
+            aria-label="同步存储"
           >
             Sync Storage
           </Button>

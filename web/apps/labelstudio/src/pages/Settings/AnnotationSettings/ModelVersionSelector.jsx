@@ -39,7 +39,7 @@ export const ModelVersionSelector = ({
         const label = `${item.title} (${item.readable_state})`;
 
         return {
-          group: "Models",
+          group: "模型",
           value: item.title,
           label,
         };
@@ -53,7 +53,7 @@ export const ModelVersionSelector = ({
         const label = `${item.model_version} (${item.count} predictions)`;
 
         return {
-          group: "Predictions",
+          group: "预测",
           value: item.model_version,
           label,
         };

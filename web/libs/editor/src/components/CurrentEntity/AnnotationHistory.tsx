@@ -247,23 +247,23 @@ const HistoryItemComponent: FC<{
   const reason = useMemo(() => {
     switch (acceptedState) {
       case "accepted":
-        return "Accepted";
+        return "已接受";
       case "rejected":
-        return "Rejected";
+        return "已拒绝";
       case "fixed_and_accepted":
         return "Fixed";
       case "updated":
-        return "Updated";
+        return "已更新";
       case "submitted":
-        return "Submitted";
+        return "已提交";
       case "prediction":
         return "From prediction";
       case "imported":
         return "Imported";
       case "skipped":
-        return "Skipped";
+        return "已跳过";
       case "draft_created":
-        return "Draft";
+        return "草稿";
       case "deleted_review":
         return "Review deleted";
       case "propagated_annotation":
@@ -358,7 +358,7 @@ const HistoryComment: FC<{
             setCollapsed((v) => !v);
           }}
         >
-          {collapsed ? "Show more" : "Show less"}
+          {collapsed ? "显示更多" : "Show less"}
         </div>
       )}
     </div>

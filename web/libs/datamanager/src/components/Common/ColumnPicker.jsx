@@ -79,7 +79,7 @@ export function columnsToPickerGroups(columns, filterFn) {
 export function getFilterGroupTitle(field) {
   if (isAgreementAlias(field.alias)) return "Agreement";
   if (field.parent) return field.parent.title;
-  return "Task";
+  return "任务";
 }
 
 /**
@@ -158,9 +158,9 @@ export function filtersToPickerGroups(availableFilters, recentEntries = []) {
     }
   }
 
-  // Ungrouped root filters are labelled "Task" so they have a visible section heading.
+  // Ungrouped root filters are labelled "任务" so they have a visible section heading.
   if (rootItems.length) {
-    result.push({ key: "__root__", title: "Task", items: rootItems });
+    result.push({ key: "__root__", title: "任务", items: rootItems });
   }
   if (agreementItems.length) {
     result.push({ key: "__agreement__", title: "Agreement", items: agreementItems });

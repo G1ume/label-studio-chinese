@@ -144,7 +144,7 @@ export const PreviewStep = ({
                 <p className="text-sm text-muted-foreground">Choose how to interpret your data from storage</p>
                 <Select
                   name="use_blob_urls"
-                  value={formData.use_blob_urls ? "Files" : "Tasks"}
+                  value={formData.use_blob_urls ? "Files" : "任务"}
                   onChange={(value) => {
                     const isFiles = value === "Files";
                     setFormState((prevState) => ({
@@ -165,7 +165,7 @@ export const PreviewStep = ({
                         label: "Files - Automatically creates a task for each storage object (e.g. JPG, MP3, TXT)",
                       },
                       {
-                        value: "Tasks",
+                        value: "任务",
                         label: "Tasks - Treat each JSON, JSONL, or Parquet as one or more task definitions per file",
                       },
                     ] as any

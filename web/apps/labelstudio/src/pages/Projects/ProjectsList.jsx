@@ -22,7 +22,7 @@ export const ProjectsList = ({ projects, currentPage, totalItems, loadNextPage, 
       <div className={cn("projects-page").elem("pages").toClassName()}>
         <Pagination
           name="projects-list"
-          label="Projects"
+          label="项目"
           page={currentPage}
           totalItems={totalItems}
           urlParamName="page"

@@ -1,0 +1,850 @@
+# Chinese (Simplified) translations for Label Studio
+# Copyright (C) 2024
+# This file is distributed under the same license as the Label Studio project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Label Studio\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2024-01-01 00:00+0800\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# === Common Model Fields ===
+msgid "created at"
+msgstr "创建时间"
+
+msgid "Created at"
+msgstr "创建时间"
+
+msgid "updated at"
+msgstr "更新时间"
+
+msgid "Updated at"
+msgstr "更新时间"
+
+msgid "deleted at"
+msgstr "删除时间"
+
+msgid "created by"
+msgstr "创建者"
+
+msgid "created_by"
+msgstr "创建者"
+
+msgid "updated by"
+msgstr "更新者"
+
+msgid "last created by"
+msgstr "最后创建者"
+
+msgid "deleted by"
+msgstr "删除者"
+
+msgid "title"
+msgstr "标题"
+
+msgid "Title"
+msgstr "标题"
+
+msgid "description"
+msgstr "描述"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "token"
+msgstr "令牌"
+
+msgid "organization title"
+msgstr "组织名称"
+
+msgid "contact info"
+msgstr "联系方式"
+
+msgid "phone"
+msgstr "电话"
+
+msgid "email address"
+msgstr "邮箱地址"
+
+msgid "first name"
+msgstr "名"
+
+msgid "last name"
+msgstr "姓"
+
+msgid "username"
+msgstr "用户名"
+
+msgid "password"
+msgstr "密码"
+
+msgid "date joined"
+msgstr "注册日期"
+
+msgid "staff status"
+msgstr "员工状态"
+
+msgid "active"
+msgstr "激活"
+
+msgid "user"
+msgstr "用户"
+
+msgid "User"
+msgstr "用户"
+
+msgid "users"
+msgstr "用户"
+
+msgid "Organization"
+msgstr "组织"
+
+# === Model Names ===
+msgid "Model"
+msgstr "模型"
+
+msgid "Name"
+msgstr "名称"
+
+# === Status/State ===
+msgid "State"
+msgstr "状态"
+
+msgid "Connected"
+msgstr "已连接"
+
+msgid "Disconnected"
+msgstr "已断开"
+
+msgid "Completed"
+msgstr "已完成"
+
+msgid "Completed with errors"
+msgstr "已完成（有错误）"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "Queued"
+msgstr "排队中"
+
+msgid "In progress"
+msgstr "进行中"
+
+msgid "In Progress"
+msgstr "进行中"
+
+msgid "InProgress"
+msgstr "进行中"
+
+msgid "Initialized"
+msgstr "已初始化"
+
+msgid "Ready"
+msgstr "就绪"
+
+msgid "Accepted"
+msgstr "已接受"
+
+msgid "Rejected"
+msgstr "已拒绝"
+
+msgid "Fixed and accepted"
+msgstr "已修正并接受"
+
+msgid "Skipped"
+msgstr "已跳过"
+
+msgid "Submitted"
+msgstr "已提交"
+
+msgid "Pending"
+msgstr "待处理"
+
+msgid "Predicting"
+msgstr "预测中"
+
+msgid "Training"
+msgstr "训练中"
+
+msgid "Published"
+msgstr "已发布"
+
+msgid "Imported"
+msgstr "已导入"
+
+msgid "Created"
+msgstr "已创建"
+
+msgid "Updated"
+msgstr "已更新"
+
+msgid "Deleted review"
+msgstr "已删除审核"
+
+# === Annotation ===
+msgid "Annotation created"
+msgstr "标注已创建"
+
+msgid "Annotation deleted"
+msgstr "标注已删除"
+
+msgid "Annotation updated"
+msgstr "标注已更新"
+
+msgid "Annotations created"
+msgstr "标注已创建"
+
+msgid "Created from another annotation"
+msgstr "从其他标注创建"
+
+msgid "Created from prediction"
+msgstr "从预测创建"
+
+msgid "cancelled_annotations"
+msgstr "已取消的标注"
+
+msgid "created annotations"
+msgstr "已创建的标注"
+
+msgid "created labels in drafts"
+msgstr "草稿中创建的标签"
+
+msgid "created labels"
+msgstr "已创建的标签"
+
+msgid "total_annotations"
+msgstr "标注总数"
+
+msgid "total_predictions"
+msgstr "预测总数"
+
+msgid "draft created at"
+msgstr "草稿创建时间"
+
+msgid "is draft"
+msgstr "是否为草稿"
+
+msgid "result count"
+msgstr "结果数量"
+
+msgid "result"
+msgstr "结果"
+
+msgid "lead time"
+msgstr "处理时间"
+
+msgid "last activity"
+msgstr "最后活动"
+
+msgid "last annotation activity"
+msgstr "最后标注活动"
+
+msgid "pinned at"
+msgstr "置顶时间"
+
+msgid "was cancelled"
+msgstr "已取消"
+
+msgid "was postponed"
+msgstr "已延期"
+
+msgid "custom_task_lock_ttl"
+msgstr "自定义任务锁定时间"
+
+msgid "custom hotkeys"
+msgstr "自定义快捷键"
+
+msgid "Custom keyboard shortcuts configuration for the user interface"
+msgstr "用户界面的自定义键盘快捷键配置"
+
+msgid "comment count"
+msgstr "评论数"
+
+msgid "unresolved comment count"
+msgstr "未解决的评论数"
+
+msgid "last comment updated at"
+msgstr "最后评论更新时间"
+
+msgid "inner id"
+msgstr "内部ID"
+
+# === Project ===
+msgid "Project created"
+msgstr "项目已创建"
+
+msgid "Project deleted"
+msgstr "项目已删除"
+
+msgid "Project updated"
+msgstr "项目已更新"
+
+msgid "label config"
+msgstr "标签配置"
+
+msgid "parsed label config"
+msgstr "已解析的标签配置"
+
+msgid "expert instruction"
+msgstr "专家指令"
+
+msgid "show instruction"
+msgstr "显示指令"
+
+msgid "show skip button"
+msgstr "显示跳过按钮"
+
+msgid "reveal_preannotations_interactively"
+msgstr "交互式显示预标注"
+
+msgid "show annotation history"
+msgstr "显示标注历史"
+
+msgid "show predictions to annotator"
+msgstr "向标注员显示预测"
+
+msgid "show overlap first"
+msgstr "优先显示重叠"
+
+msgid "show ground truth first"
+msgstr "优先显示真实标注"
+
+msgid "enable empty annotation"
+msgstr "允许空标注"
+
+msgid "evaluate predictions automatically"
+msgstr "自动评估预测"
+
+msgid "annotator evaluation enabled"
+msgstr "标注员评估已启用"
+
+msgid "min_annotations_to_start_training"
+msgstr "开始训练的最小标注数"
+
+msgid "maximum annotation number"
+msgstr "最大标注数"
+
+msgid "overlap"
+msgstr "重叠"
+
+msgid "overlap_cohort_percentage"
+msgstr "重叠组百分比"
+
+msgid "control weights"
+msgstr "控制权重"
+
+msgid "color"
+msgstr "颜色"
+
+msgid "batch size"
+msgstr "批量大小"
+
+msgid "budget_limit"
+msgstr "预算限制"
+
+msgid "budget_total_spent"
+msgstr "预算总支出"
+
+msgid "budget_last_reset_date"
+msgstr "预算最后重置日期"
+
+msgid "budget_reset_period"
+msgstr "预算重置周期"
+
+msgid "budget_alert_threshold"
+msgstr "预算告警阈值"
+
+# === Task ===
+msgid "Task created"
+msgstr "任务已创建"
+
+msgid "Task deleted"
+msgstr "任务已删除"
+
+msgid "data"
+msgstr "数据"
+
+msgid "total tasks"
+msgstr "总任务数"
+
+msgid "bulk created"
+msgstr "批量创建"
+
+msgid "selected items"
+msgstr "已选择项目"
+
+msgid "total predictions"
+msgstr "总预测数"
+
+msgid "total correct predictions"
+msgstr "正确预测总数"
+
+msgid "mislabeling"
+msgstr "错误标注"
+
+msgid "ground_truth"
+msgstr "真实标注"
+
+msgid "Reference to the associated prediction"
+msgstr "关联预测的引用"
+
+msgid "Reference to the associated failed prediction"
+msgstr "关联失败预测的引用"
+
+msgid "inference time"
+msgstr "推理时间"
+
+msgid "Time taken for inference in seconds"
+msgstr "推理所用时间（秒）"
+
+msgid "prompt tokens count"
+msgstr "提示词Token数"
+
+msgid "Number of tokens in the prompt"
+msgstr "提示词中的Token数量"
+
+msgid "completion tokens count"
+msgstr "补全Token数"
+
+msgid "Number of tokens in the completion"
+msgstr "补全中的Token数量"
+
+msgid "total tokens count"
+msgstr "总Token数"
+
+msgid "Total number of tokens"
+msgstr "Token总数"
+
+msgid "prompt cost"
+msgstr "提示词成本"
+
+msgid "Cost of the prompt"
+msgstr "提示词成本"
+
+msgid "completion cost"
+msgstr "补全成本"
+
+msgid "Cost of the completion"
+msgstr "补全成本"
+
+msgid "total cost"
+msgstr "总成本"
+
+msgid "Total cost"
+msgstr "总成本"
+
+msgid "extra"
+msgstr "额外信息"
+
+msgid "Additional metadata in JSON format"
+msgstr "JSON格式的额外元数据"
+
+msgid "score"
+msgstr "分数"
+
+msgid "completed at"
+msgstr "完成时间"
+
+msgid "finished at"
+msgstr "完成时间"
+
+msgid "triggered at"
+msgstr "触发时间"
+
+msgid "expire_at"
+msgstr "过期时间"
+
+msgid "purge at"
+msgstr "清除时间"
+
+msgid "predictions updated at"
+msgstr "预测更新时间"
+
+msgid "last action"
+msgstr "最后操作"
+
+# === Task Choices ===
+msgid "All"
+msgstr "全部"
+
+msgid "None"
+msgstr "无"
+
+msgid "HasGT"
+msgstr "有真实标注"
+
+msgid "Sample"
+msgstr "样本"
+
+msgid "prediction"
+msgstr "预测"
+
+msgid "prediction Meta"
+msgstr "预测元数据"
+
+msgid "Prediction Metas"
+msgstr "预测元数据"
+
+msgid "common data columns"
+msgstr "通用数据列"
+
+msgid "all data columns"
+msgstr "所有数据列"
+
+# === Export ===
+msgid "Export status"
+msgstr "导出状态"
+
+msgid "Exporting meta data"
+msgstr "导出元数据"
+
+# === ML ===
+msgid "model version"
+msgstr "模型版本"
+
+msgid "prompt"
+msgstr "提示词"
+
+# === Storage ===
+msgid "bucket"
+msgstr "存储桶"
+
+msgid "prefix"
+msgstr "前缀"
+
+msgid "path"
+msgstr "路径"
+
+msgid "container"
+msgstr "容器"
+
+msgid "host"
+msgstr "主机"
+
+msgid "port"
+msgstr "端口"
+
+msgid "db"
+msgstr "数据库"
+
+msgid "index"
+msgstr "索引"
+
+msgid "cluster"
+msgstr "集群"
+
+msgid "regex_filter"
+msgstr "正则过滤"
+
+msgid "use_blob_urls"
+msgstr "使用Blob URL"
+
+msgid "google_application_credentials"
+msgstr "Google应用凭证"
+
+msgid "google application credentials"
+msgstr "Google应用凭证"
+
+msgid "google project id"
+msgstr "Google项目ID"
+
+msgid "Google Project ID"
+msgstr "Google项目ID"
+
+msgid "google location"
+msgstr "Google位置"
+
+msgid "account_key"
+msgstr "账户密钥"
+
+msgid "account_name"
+msgstr "账户名称"
+
+msgid "last sync"
+msgstr "最后同步"
+
+msgid "last sync count"
+msgstr "最后同步数量"
+
+msgid "last_sync_job"
+msgstr "最后同步任务"
+
+msgid "synchronizable"
+msgstr "可同步"
+
+msgid "can_delete_objects"
+msgstr "可删除对象"
+
+msgid "key"
+msgstr "键"
+
+msgid "object exists"
+msgstr "对象存在"
+
+msgid "presign"
+msgstr "预签名"
+
+msgid "presign_ttl"
+msgstr "预签名有效期"
+
+msgid "recursive scan"
+msgstr "递归扫描"
+
+msgid "Perform recursive scan over the bucket content"
+msgstr "对存储桶内容执行递归扫描"
+
+msgid "Perform recursive scan over the container content"
+msgstr "对容器内容执行递归扫描"
+
+msgid "Perform recursive scan over the directory content"
+msgstr "对目录内容执行递归扫描"
+
+msgid "aws_access_key_id"
+msgstr "AWS访问密钥ID"
+
+msgid "aws_secret_access_key"
+msgstr "AWS秘密访问密钥"
+
+msgid "aws_session_token"
+msgstr "AWS会话令牌"
+
+msgid "aws_sse_kms_key_id"
+msgstr "AWS SSE KMS密钥ID"
+
+msgid "region_name"
+msgstr "区域名称"
+
+msgid "s3_endpoint"
+msgstr "S3端点"
+
+msgid "auth_token"
+msgstr "认证令牌"
+
+msgid "api_key"
+msgstr "API密钥"
+
+msgid "basic auth user"
+msgstr "基本认证用户"
+
+msgid "basic auth password"
+msgstr "基本认证密码"
+
+msgid "Basic Auth"
+msgstr "基本认证"
+
+msgid "task_data_login"
+msgstr "任务数据登录"
+
+msgid "task_data_password"
+msgstr "任务数据密码"
+
+msgid "auto_update"
+msgstr "自动更新"
+
+# === Webhooks ===
+msgid "URL of webhook"
+msgstr "Webhook URL"
+
+msgid "url"
+msgstr "URL"
+
+msgid "is webhook active"
+msgstr "Webhook是否激活"
+
+msgid "does webhook send the payload"
+msgstr "Webhook是否发送载荷"
+
+msgid "Use webhook for all actions"
+msgstr "对所有操作使用Webhook"
+
+msgid "action of webhook"
+msgstr "Webhook操作"
+
+msgid "request extra headers of webhook"
+msgstr "Webhook请求额外头信息"
+
+# === Labels ===
+msgid "Label link created"
+msgstr "标签链接已创建"
+
+msgid "Label link deleted"
+msgstr "标签链接已删除"
+
+msgid "Label link updated"
+msgstr "标签链接已更新"
+
+msgid "Tag name"
+msgstr "标签名称"
+
+# === Users ===
+msgid "allow newsletters"
+msgstr "允许新闻通讯"
+
+msgid "Allow sending newsletters to user"
+msgstr "允许向用户发送新闻通讯"
+
+msgid "allow_skip"
+msgstr "允许跳过"
+
+msgid "Designates whether the user can log into this admin site."
+msgstr "指定用户是否可以登录此管理站点。"
+
+msgid "Designates whether to treat this user as active. Unselect this instead of deleting accounts."
+msgstr "指定是否将此用户视为活跃用户。取消选择此项而不是删除账户。"
+
+msgid "Your password must be between %(min_length)s and %(max_length)s characters long."
+msgstr "您的密码长度必须在 %(min_length)s 到 %(max_length)s 个字符之间。"
+
+msgid "Please enter a password %(min_length)s characters or more."
+msgstr "请输入 %(min_length)s 个字符或更多的密码。"
+
+# === Session Policy ===
+msgid "Max session age (minutes)"
+msgstr "最大会话时长（分钟）"
+
+msgid "Max time (minutes) between activity"
+msgstr "活动之间的最大时间（分钟）"
+
+# === JWT Auth ===
+msgid "JWT API token time to live (days)"
+msgstr "JWT API令牌生存时间（天）"
+
+msgid "JWT API tokens enabled"
+msgstr "JWT API令牌已启用"
+
+msgid "legacy API tokens enabled"
+msgstr "旧版API令牌已启用"
+
+# === FSM ===
+msgid "conjunction"
+msgstr "连接"
+
+msgid "operator"
+msgstr "操作符"
+
+msgid "ordering"
+msgstr "排序"
+
+msgid "order"
+msgstr "顺序"
+
+msgid "column"
+msgstr "列"
+
+msgid "type"
+msgstr "类型"
+
+msgid "value"
+msgstr "值"
+
+msgid "Input"
+msgstr "输入"
+
+msgid "Output"
+msgstr "输出"
+
+msgid "Action value"
+msgstr "操作值"
+
+msgid "Custom"
+msgstr "自定义"
+
+# === AI/ML Providers ===
+msgid "OpenAI"
+msgstr "OpenAI"
+
+msgid "AzureOpenAI"
+msgstr "Azure OpenAI"
+
+msgid "AzureAIFoundry"
+msgstr "Azure AI Foundry"
+
+msgid "Anthropic"
+msgstr "Anthropic"
+
+msgid "Gemini"
+msgstr "Gemini"
+
+msgid "VertexAI"
+msgstr "Vertex AI"
+
+# === Data Manager ===
+msgid "data_types"
+msgstr "数据类型"
+
+# === Static Serve ===
+msgid "Directory indexes are not allowed here."
+msgstr "此处不允许目录索引。"
+
+# === Tag Types ===
+msgid "TextClassification"
+msgstr "文本分类"
+
+msgid "NamedEntityRecognition"
+msgstr "命名实体识别"
+
+# === Other ===
+msgid "message"
+msgstr "消息"
+
+msgid "error_message"
+msgstr "错误消息"
+
+msgid "error_type"
+msgstr "错误类型"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Interaction Data"
+msgstr "交互数据"
+
+msgid "md5 of file"
+msgstr "文件MD5"
+
+msgid "year"
+msgstr "年"
+
+msgid "Business number %d"
+msgstr "业务编号 %d"
+
+msgid "module_name, fromlist=[class_name]"
+msgstr "module_name, fromlist=[class_name]"
+
+msgid "published"
+msgstr "已发布"
+
+msgid "is_interactive"
+msgstr "是否交互式"
+
+msgid "is_internal"
+msgstr "是否内部"
+
+msgid "is_labeled"
+msgstr "是否已标注"
+
+msgid "timeout"
+msgstr "超时"
+
+msgid "extra params"
+msgstr "额外参数"
+
+msgid "proto"
+msgstr "协议"
+
+msgid "Creation time"
+msgstr "创建时间"
+
+msgid "Last update time"
+msgstr "最后更新时间"
+
+msgid "''"
+msgstr "''"

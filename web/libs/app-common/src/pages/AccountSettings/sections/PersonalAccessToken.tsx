@@ -62,7 +62,7 @@ export const PersonalAccessToken = () => {
               look="outlined"
               className="w-[116px]"
             >
-              {tokenCopied ? "Copied!" : "Copy"}
+              {tokenCopied ? "已复制！" : "复制"}
             </Button>
             <Button variant="negative" look="outlined" onClick={() => reset.mutate()}>
               Reset
@@ -87,7 +87,7 @@ export const PersonalAccessToken = () => {
               look="outlined"
               className="w-[116px]"
             >
-              {curlCopied ? "Copied!" : "Copy"}
+              {curlCopied ? "已复制！" : "复制"}
             </Button>
           </div>
         </div>

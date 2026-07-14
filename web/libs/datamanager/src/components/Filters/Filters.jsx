@@ -115,7 +115,7 @@ export const Filters = injector(({ store, views, currentView, filters, projectId
           onClick={() => currentView.createFilter()}
           leading={<IconPlus className="!h-3 !w-3" />}
         >
-          Add {filters.length ? "Another Filter" : "Filter"}
+          Add {filters.length ? "Another Filter" : "筛选"}
         </Button>
 
         <div className={cn("filters").elem("actions-right").toClassName()}>
@@ -123,7 +123,7 @@ export const Filters = injector(({ store, views, currentView, filters, projectId
             <Button
               size="small"
               look="string"
-              tooltip={copyFeedback ? "Copied!" : "Copy filters to clipboard; Tip: Use it in Label Studio SDK"}
+              tooltip={copyFeedback ? "已复制！" : "Copy filters to clipboard; Tip: Use it in Label Studio SDK"}
               onClick={handleCopyFilters}
               aria-label="Copy filters"
             >

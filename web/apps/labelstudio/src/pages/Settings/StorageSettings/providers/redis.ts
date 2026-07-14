@@ -18,7 +18,7 @@ export const redisProvider: ProviderConfig = {
     {
       name: "password",
       type: "password",
-      label: "Password",
+      label: "密码",
       autoComplete: "new-password",
       placeholder: "Your redis password",
       schema: z.string().optional().default(""),

@@ -21,7 +21,7 @@ export const PeoplePage = () => {
   const [selectedUser, setSelectedUser] = useState(null);
   const [invitationOpen, setInvitationOpen] = useState(false);
 
-  useUpdatePageTitle("People");
+  useUpdatePageTitle("人员");
 
   const selectUser = useCallback(
     (user) => {
@@ -103,5 +103,5 @@ export const PeoplePage = () => {
   );
 };
 
-PeoplePage.title = "People";
+PeoplePage.title = "人员";
 PeoplePage.path = "/";

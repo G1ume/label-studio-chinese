@@ -195,14 +195,14 @@ function AnnotationButtonTooltip({
     // Check for both ephemeral drafts (isDraft) and saved drafts (isDraftSaved)
     // Exception: If Draft AND Skipped, show both Draft and Skipped
     if (isDraft || isDraftSaved) {
-      return { label: "Draft", variant: "primary" as const };
+      return { label: "草稿", variant: "primary" as const };
     }
     if (acceptedState) {
       switch (acceptedState) {
         case "accepted":
-          return { label: "Accepted", variant: "positive" as const };
+          return { label: "已接受", variant: "positive" as const };
         case "rejected":
-          return { label: "Rejected", variant: "negative" as const };
+          return { label: "已拒绝", variant: "negative" as const };
         case "fixed":
         case "fixed_and_accepted":
           return { label: "Fixed", variant: "warning" as const };
@@ -212,7 +212,7 @@ function AnnotationButtonTooltip({
     }
     // Exception: If Submitted AND Skipped, only show Skipped (don't show Submitted)
     if (isSubmitted && !isSkipped) {
-      return { label: "Submitted", variant: "positive" as const };
+      return { label: "已提交", variant: "positive" as const };
     }
 
     return null;
@@ -238,17 +238,17 @@ function AnnotationButtonTooltip({
 
     // Add Annotation ID first if available
     if (annotationId) {
-      rows.push({ label: "Annotation ID", value: String(annotationId) });
+      rows.push({ label: "标注ID", value: String(annotationId) });
     }
 
     // Add Type for all annotations/predictions
     if (isPrediction) {
-      rows.push({ label: "Type", value: "Prediction" });
+      rows.push({ label: "类型", value: "预测" });
       if (isDefined(predictionScore)) {
         rows.push({ label: "Prediction Score", value: `${(predictionScore * 100).toFixed(2)}%` });
       }
     } else {
-      rows.push({ label: "Type", value: "Annotation" });
+      rows.push({ label: "类型", value: "标注" });
     }
 
     // Add Last Updated after Type
@@ -265,8 +265,8 @@ function AnnotationButtonTooltip({
   const tooltipBadges = useMemo(() => {
     const badges: Array<{ label: string; variant: "primary" | "positive" | "negative" | "warning" }> = [];
     if (statusBadge) badges.push(statusBadge);
-    if (isSkipped) badges.push({ label: "Skipped", variant: "negative" });
-    if (isGroundTruth) badges.push({ label: "Ground Truth", variant: "warning" });
+    if (isSkipped) badges.push({ label: "已跳过", variant: "negative" });
+    if (isGroundTruth) badges.push({ label: "真实标注", variant: "warning" });
     return badges;
   }, [statusBadge, isSkipped, isGroundTruth]);
 
@@ -975,14 +975,14 @@ export const AnnotationButton = observer(
           {!isPrediction && (
             <div className={cn("annotation-button").elem("icons").toClassName()}>
               {(entity.draftId > 0 || isDraft) && (
-                <Tooltip title="Draft">
+                <Tooltip title="草稿">
                   <div className={cn("annotation-button").elem("icon").mod({ draft: true }).toClassName()}>
                     <IconDraftCreated2 color="#617ADA" />
                   </div>
                 </Tooltip>
               )}
               {entity.skipped && (
-                <Tooltip title="Skipped">
+                <Tooltip title="已跳过">
                   <div className={cn("annotation-button").elem("icon").mod({ skipped: true }).toClassName()}>
                     <IconAnnotationSkipped2 color="#DD0000" />
                   </div>

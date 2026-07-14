@@ -348,7 +348,7 @@ const ExportTimeoutGuidance = ({ projectId, exportType }) => {
                     className={cn("export-page").elem("timeout-copy-button").toClassName()}
                     onClick={handleCopy}
                     aria-label="Copy command"
-                    title={copied ? "Copied!" : "Copy command"}
+                    title={copied ? "已复制！" : "Copy command"}
                   >
                     <IconCopyOutline className={cn("export-page").elem("timeout-copy-icon").toClassName()} />
                     {copied && (

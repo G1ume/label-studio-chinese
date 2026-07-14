@@ -32,7 +32,7 @@ import { stateRegistry, StateType } from "@humansignal/app-common";
 stateRegistry.registerBatch({
   CREATED: {
     type: StateType.INITIAL,
-    label: "Created",
+    label: "已创建",
     tooltips: {
       project: "Project has been created and is ready for configuration",
     },
@@ -40,7 +40,7 @@ stateRegistry.registerBatch({
 
   ANNOTATION_IN_PROGRESS: {
     type: StateType.IN_PROGRESS,
-    label: "In Progress",
+    label: "进行中",
     tooltips: {
       project: "Annotation work is in progress on this project",
       task: "Task is being annotated",
@@ -49,7 +49,7 @@ stateRegistry.registerBatch({
 
   COMPLETED: {
     type: StateType.TERMINAL,
-    label: "Completed",
+    label: "已完成",
     tooltips: {
       project: "All work on this project is completed",
       task: "Task has been completed",

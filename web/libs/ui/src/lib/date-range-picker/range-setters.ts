@@ -24,7 +24,7 @@ export const rangeSetters = (creationDate?: Date, includeTime = true): { [key: s
   const rangeList: { [key: string]: TimeRangeButton } = {
     today: {
       id: "today",
-      name: "Today",
+      name: "今天",
       newRange: () => {
         const today = new Date();
         const todayByNumbers = convertDateToNumbers(today);
@@ -47,7 +47,7 @@ export const rangeSetters = (creationDate?: Date, includeTime = true): { [key: s
     },
     yesterday: {
       id: "yesterday",
-      name: "Yesterday",
+      name: "昨天",
       newRange: () => {
         const today = new Date();
 
@@ -70,7 +70,7 @@ export const rangeSetters = (creationDate?: Date, includeTime = true): { [key: s
     },
     lastSeven: {
       id: "last_7_days",
-      name: "Last 7 days",
+      name: "最近7天",
       newRange: () => {
         const today = new Date();
         const todayValue = convertDateToNumbers(today);
@@ -94,7 +94,7 @@ export const rangeSetters = (creationDate?: Date, includeTime = true): { [key: s
     },
     lastThirty: {
       id: "last_30_days",
-      name: "Last 30 days",
+      name: "最近30天",
       newRange: () => {
         const today = new Date();
         const todayValue = convertDateToNumbers(today);
@@ -142,7 +142,7 @@ export const rangeSetters = (creationDate?: Date, includeTime = true): { [key: s
     },
     thisMonth: {
       id: "this_month",
-      name: "This month",
+      name: "本月",
       newRange: () => {
         const today = new Date();
         const firstOfTheMonth = convertDateToNumbers(

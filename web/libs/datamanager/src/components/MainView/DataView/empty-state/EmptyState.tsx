@@ -222,7 +222,7 @@ export const EmptyState: FC<EmptyStateProps> = ({
       icon: <IconSearch />,
       iconBackground: "bg-warning-background",
       iconColor: "text-warning-icon",
-      title: "No tasks found",
+      title: "未找到任务",
       description: "Try adjusting or clearing the filters to see more results",
       actions: (
         <Button variant="primary" look="outlined" onClick={onClearFilters} data-testid="dm-clear-filters-button">

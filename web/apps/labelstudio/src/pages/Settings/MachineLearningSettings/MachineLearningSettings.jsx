@@ -68,7 +68,7 @@ export const MachineLearningSettings = () => {
     (backend) => {
       const action = backend ? "updateMLBackend" : "addMLBackend";
       const modalProps = {
-        title: `${backend ? "Edit" : "Connect"} Model`,
+        title: `${backend ? "编辑" : "Connect"} Model`,
         style: { width: 760 },
         closeOnClickOutside: false,
         body: (
@@ -182,7 +182,7 @@ export const MachineLearningSettings = () => {
           {backends.length > 0 && (
             <div className="p-wide border border-neutral-border rounded-md">
               <Form.Row columnCount={1}>
-                <Label text="Configuration" large />
+                <Label text="配置" large />
 
                 <div>
                   <Toggle

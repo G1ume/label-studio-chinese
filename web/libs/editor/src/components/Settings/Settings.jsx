@@ -17,7 +17,7 @@ import { ff } from "@humansignal/core";
 const HotkeysDescription = () => {
   const columns = [
     { title: "Shortcut", dataIndex: "combo", key: "combo" },
-    { title: "Description", dataIndex: "descr", key: "descr" },
+    { title: "描述", dataIndex: "descr", key: "descr" },
   ];
 
   const keyNamespaces = Hotkey.namespaces();
@@ -176,7 +176,7 @@ const LayoutSettings = observer(({ store }) => {
 });
 
 const Settings = {
-  General: { name: "General", component: GeneralSettings },
+  General: { name: "通用", component: GeneralSettings },
   Hotkeys: { name: "Hotkeys", component: HotkeysDescription },
 };
 

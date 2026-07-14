@@ -30,9 +30,9 @@ export const GeneralSettings = () => {
         <div className={cn("settings-wrapper").toClassName()}>
           <Form action="updateProject" formData={{ ...project }} params={{ pk: project.id }} onSubmit={updateProject}>
             <Form.Row columnCount={1} rowGap="16px">
-              <Input name="title" label="Project Name" />
+              <Input name="title" label="项目名称" />
 
-              <TextArea name="description" label="Description" style={{ minHeight: 128 }} />
+              <TextArea name="description" label="描述" style={{ minHeight: 128 }} />
               {isFF(FF_LSDV_E_297) && (
                 <div className={cn("workspace-placeholder").toClassName()}>
                   <div className={cn("workspace-placeholder").elem("badge-wrapper").toClassName()}>
@@ -59,7 +59,7 @@ export const GeneralSettings = () => {
                   </Typography>
                 </div>
               )}
-              <RadioGroup name="color" label="Color" size="large" labelProps={{ size: "large" }}>
+              <RadioGroup name="color" label="颜色" size="large" labelProps={{ size: "large" }}>
                 {colors.map((color) => (
                   <RadioGroup.Button key={color} value={color}>
                     <div className={cn("color").toClassName()} style={{ "--background": color }} />
@@ -131,6 +131,6 @@ export const GeneralSettings = () => {
   );
 };
 
-GeneralSettings.menuItem = "General";
+GeneralSettings.menuItem = "通用";
 GeneralSettings.path = "/";
 GeneralSettings.exact = true;

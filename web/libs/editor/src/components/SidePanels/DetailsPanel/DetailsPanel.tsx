@@ -24,7 +24,7 @@ const DetailsPanelComponent: FC<DetailsPanelProps> = ({ currentEntity, regions, 
   const selectedRegions = regions.selection;
 
   return (
-    <PanelBase {...props} currentEntity={currentEntity} name="details" title="Details">
+    <PanelBase {...props} currentEntity={currentEntity} name="details" title="详情">
       <Content selection={selectedRegions} currentEntity={currentEntity} />
     </PanelBase>
   );
@@ -94,7 +94,7 @@ const RelationsTab: FC<any> = inject("store")(
                 description={<>Link regions to define relationships between them</>}
                 learnMore={{
                   href: getDocsUrl("guide/labeling#Add-relations-between-annotations"),
-                  text: "Learn more",
+                  text: "了解更多",
                   testId: "relations-panel-learn-more",
                 }}
               />

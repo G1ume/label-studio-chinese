@@ -74,7 +74,7 @@ const Typography = forwardRef<HTMLElement, TypographyProps>(
       style,
       truncateLines,
       expandable = true,
-      expandLabel = "Show more",
+      expandLabel = "显示更多",
       collapseLabel = "Show less",
       expandToggleClassName,
       ...rest

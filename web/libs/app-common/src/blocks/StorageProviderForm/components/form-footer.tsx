@@ -88,7 +88,7 @@ export const FormFooter = ({
                 : undefined
           }
         >
-          {currentStep < totalSteps - 1 ? "Next" : target === "export" ? "Save" : "Save & Sync"}
+          {currentStep < totalSteps - 1 ? "下一步" : target === "export" ? "保存" : "Save & Sync"}
         </Button>
 
         {currentStep === totalSteps - 1 && target !== "export" && onSave && (

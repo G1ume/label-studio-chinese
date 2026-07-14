@@ -17,7 +17,7 @@ export interface PaginationProps {
   totalItems: number;
   /** Options for page size selector */
   pageSizeOptions?: number[];
-  /** Label to display (e.g., "Projects") */
+  /** Label to display (e.g., "项目") */
   label?: string;
   /** Whether to allow direct page number input */
   allowInput?: boolean;

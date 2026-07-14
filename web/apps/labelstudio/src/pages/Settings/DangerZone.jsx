@@ -19,7 +19,7 @@ export const DangerZone = () => {
   const toast = useToast();
   const [processing, setProcessing] = useState(null);
 
-  useUpdatePageTitle(createTitleFromSegments([project?.title, "Danger Zone"]));
+  useUpdatePageTitle(createTitleFromSegments([project?.title, "危险区域"]));
 
   const showDangerConfirmation = ({ title, message, requiredWord, buttonText, onConfirm }) => {
     const isDev = process.env.NODE_ENV === "development";
@@ -244,5 +244,5 @@ export const DangerZone = () => {
   );
 };
 
-DangerZone.title = "Danger Zone";
+DangerZone.title = "危险区域";
 DangerZone.path = "/danger-zone";

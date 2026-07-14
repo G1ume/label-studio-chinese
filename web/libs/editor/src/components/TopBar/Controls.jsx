@@ -115,7 +115,7 @@ export const Controls = controlsInjector(
               store.acceptAnnotation();
             }}
           >
-            {history.canUndo || annotation.versions.draft ? "Fix + Accept" : "Accept"}
+            {history.canUndo || annotation.versions.draft ? "Fix + Accept" : "接受"}
           </Button>
         </ButtonTooltip>,
       );
@@ -225,7 +225,7 @@ export const Controls = controlsInjector(
                 store.updateAnnotation();
               }}
             >
-              {isUpdate ? "Update" : "Submit"}
+              {isUpdate ? "更新" : "提交"}
             </Button>
           </ButtonTooltip>
         );

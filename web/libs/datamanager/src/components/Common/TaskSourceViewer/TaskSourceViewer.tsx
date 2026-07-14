@@ -39,7 +39,7 @@ export interface TaskSourceViewerProps {
 const TASK_SOURCE_FILTERS: FilterConfig[] = [
   {
     id: "annotations",
-    label: "Annotations",
+    label: "标注",
     filterFn: (nodeData) => {
       const path = nodeData.path;
       return path && path.includes("annotations");
@@ -47,7 +47,7 @@ const TASK_SOURCE_FILTERS: FilterConfig[] = [
   },
   {
     id: "predictions",
-    label: "Predictions",
+    label: "预测",
     filterFn: (nodeData) => {
       const path = nodeData.path;
       return path && path.includes("predictions");

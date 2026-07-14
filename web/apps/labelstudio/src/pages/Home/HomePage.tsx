@@ -22,7 +22,7 @@ import {
 
 const resources = [
   {
-    title: "Documentation",
+    title: "文档",
     url: "https://labelstud.io/guide/",
   },
   {
@@ -45,7 +45,7 @@ const resources = [
 
 const actions = [
   {
-    title: "Create Project",
+    title: "创建项目",
     icon: IconFolderAdd,
     type: "createProject",
   },

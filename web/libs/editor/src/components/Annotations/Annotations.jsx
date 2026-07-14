@@ -155,7 +155,7 @@ const Annotation = observer(({ item, store }) => {
               onConfirm={confirm}
               okText="Delete"
               okType="danger"
-              cancelText="Cancel"
+              cancelText="取消"
             >
               <Button size="small" look="string" variant="negative" aria-label="Delete selected annotation">
                 <DeleteOutlined />
@@ -183,7 +183,7 @@ const Annotation = observer(({ item, store }) => {
             {badge}
             {annotationID}
           </div>
-          {item.pk ? "Created" : "Started"}
+          {item.pk ? "已创建" : "Started"}
           <i>{item.createdAgo ? ` ${item.createdAgo} ago` : ` ${Utils.UDate.prettyDate(item.createdDate)}`}</i>
           {item.createdBy && item.pk ? ` by ${item.createdBy}` : null}
           <DraftPanel item={item} />

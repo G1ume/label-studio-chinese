@@ -115,7 +115,7 @@ export default inject("store")(
             tooltip="Update this task: [ Alt+Enter ]"
             className={updateButtonClassName}
           >
-            {sentUserGenerate || versions.result ? "Update" : "Submit"} {buttons.update}
+            {sentUserGenerate || versions.result ? "更新" : "提交"} {buttons.update}
           </Button>
         );
       }

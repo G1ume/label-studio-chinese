@@ -209,7 +209,7 @@ function CreateTokenForm() {
           value={data ?? ""}
         />
         <Button onClick={() => copy()} disabled={copied} variant="neutral" look="outlined">
-          {copied ? "Copied!" : "Copy"}
+          {copied ? "已复制！" : "复制"}
         </Button>
       </div>
 

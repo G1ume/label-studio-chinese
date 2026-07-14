@@ -19,7 +19,7 @@ export const TabsMenu = ({ onClick, editable = true, closable = true, clonable =
       },
       {
         key: "save",
-        title: "Save",
+        title: "保存",
         enabled: virtual,
         action: () => onClick("save"),
         willLeave: true,

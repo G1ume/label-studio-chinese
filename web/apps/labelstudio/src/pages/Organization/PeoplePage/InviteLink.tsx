@@ -39,7 +39,7 @@ export function InviteLink({
   return (
     <Modal
       ref={modalRef}
-      title="Invite members"
+      title="邀请成员"
       opened={opened}
       bareFooter={true}
       body={<InvitationModal />}
@@ -102,7 +102,7 @@ const InvitationFooter = () => {
           onClick={() => copyText(link!)}
           aria-label="Copy invite link"
         >
-          {copied ? "Copied!" : "Copy link"}
+          {copied ? "已复制！" : "Copy link"}
         </Button>
       </Space>
     </Space>

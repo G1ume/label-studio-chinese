@@ -73,7 +73,7 @@ export const AcceptButton = memo(
           }}
           data-testid="bottombar-accept-button"
         >
-          {hasChanges ? "Fix + Accept" : "Accept"}
+          {hasChanges ? "Fix + Accept" : "接受"}
         </Button>
       </Tooltip>
     );
@@ -83,7 +83,7 @@ export const AcceptButton = memo(
 export const RejectButtonDefinition = {
   id: "reject",
   name: "reject",
-  title: "Reject",
+  title: "拒绝",
   variant: "negative",
   look: "outlined",
   ariaLabel: "reject-annotation",

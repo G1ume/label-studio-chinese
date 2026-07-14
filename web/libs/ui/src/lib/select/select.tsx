@@ -633,7 +633,7 @@ export const Select = forwardRef(
             <Command shouldFilter={false}>
               {searchable && (
                 <CommandInput
-                  placeholder={searchPlaceholder ?? "Search"}
+                  placeholder={searchPlaceholder ?? "搜索"}
                   value={query}
                   onChangeCapture={onSearchInputHandler}
                   data-testid="select-search-field"
@@ -861,4 +861,4 @@ const Option = ({
   );
 };
 
-Select.displayName = "Select";
+Select.displayName = "选择";

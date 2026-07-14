@@ -22,7 +22,7 @@ export const accountSettingsSections = (settings: AuthTokenSettings, permissions
 
   return [
     {
-      title: "Personal Info",
+      title: "个人信息",
       id: "personal-info",
       component: PersonalInfo,
     },

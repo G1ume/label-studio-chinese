@@ -15,7 +15,7 @@ import styles from "./enterprise-upgrade-overlay.module.css";
  * Features:
  * - Gradient border effect with backdrop blur
  * - Customizable title, description, and button labels
- * - Optional "Learn more" button with configurable URL
+ * - Optional "了解更多" button with configurable URL
  * - Flexible callback handlers for user interactions
  * - Consistent styling with design system
  *
@@ -43,7 +43,7 @@ import styles from "./enterprise-upgrade-overlay.module.css";
  * ```
  *
  * @example
- * Without "Learn more" button:
+ * Without "了解更多" button:
  * ```tsx
  * <EnterpriseUpgradeOverlay
  *   title="Premium Feature"
@@ -61,13 +61,13 @@ export interface EnterpriseUpgradeOverlayProps {
   description?: ReactNode;
   /** Name of the feature being promoted (used in default text) */
   feature?: string;
-  /** Optional URL for the "Learn more" button */
+  /** Optional URL for the "了解更多" button */
   learnMoreUrl?: string;
   /** Optional custom label for the primary CTA button */
   primaryButtonLabel?: string;
   /** Optional custom label for the secondary button */
   secondaryButtonLabel?: string;
-  /** Whether to show the "Learn more" button */
+  /** Whether to show the "了解更多" button */
   showLearnMore?: boolean;
   /** Callback when contact sales button is clicked */
   onContactSales?: () => void;
@@ -88,7 +88,7 @@ export const EnterpriseUpgradeOverlay = forwardRef<HTMLDivElement, EnterpriseUpg
       description = "This feature is available within the Enterprise plan. Contact our sales team to get access to this and more!",
       learnMoreUrl = "https://docs.humansignal.com",
       primaryButtonLabel = "Contact Sales",
-      secondaryButtonLabel = "Learn more",
+      secondaryButtonLabel = "了解更多",
       showLearnMore = true,
       onContactSales,
       onLearnMore,
@@ -120,7 +120,7 @@ export const EnterpriseUpgradeOverlay = forwardRef<HTMLDivElement, EnterpriseUpg
               variant="neutral"
               size="small"
               onClick={onClose}
-              aria-label="Close"
+              aria-label="关闭"
             >
               <IconClose />
             </Button>

@@ -677,7 +677,7 @@ export const AppStore = types
         if (result.response) {
           try {
             self.serverError.set(methodName, {
-              error: "Something went wrong",
+              error: "出了点问题",
               response: result.response,
             });
           } catch {

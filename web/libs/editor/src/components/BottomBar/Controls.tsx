@@ -234,7 +234,7 @@ export const Controls = controlsInjector<{ annotation: MSTAnnotation }>(
               }}
               data-testid={`bottombar-${isUpdate ? "update" : "submit"}-and-exit-button`}
             >
-              {`${isUpdate ? "Update" : "Submit"} and exit`}
+              {`${isUpdate ? "更新" : "提交"} and exit`}
             </Button>
           </div>
         );
@@ -281,7 +281,7 @@ export const Controls = controlsInjector<{ annotation: MSTAnnotation }>(
                   >
                     <Button
                       disabled={isDisabled}
-                      aria-label="Submit annotation"
+                      aria-label="提交标注"
                       data-testid="bottombar-submit-dropdown"
                     >
                       <IconChevronDown />
@@ -323,7 +323,7 @@ export const Controls = controlsInjector<{ annotation: MSTAnnotation }>(
                   }}
                   data-testid="bottombar-update-button"
                 >
-                  {isUpdate ? "Update" : "Submit"}
+                  {isUpdate ? "更新" : "提交"}
                 </Button>
                 {useExitOption ? (
                   <Dropdown.Trigger
@@ -332,7 +332,7 @@ export const Controls = controlsInjector<{ annotation: MSTAnnotation }>(
                   >
                     <Button
                       disabled={isUpdateDisabled}
-                      aria-label="Update annotation"
+                      aria-label="更新标注"
                       data-testid="bottombar-update-dropdown"
                     >
                       <IconChevronDown />

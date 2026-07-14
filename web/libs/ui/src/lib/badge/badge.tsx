@@ -163,7 +163,7 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>(
                   e.stopPropagation();
                   onClose(e);
                 }}
-                aria-label="Remove"
+                aria-label="移除"
                 tabIndex={-1}
               >
                 <IconClose />

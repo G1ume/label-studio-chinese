@@ -12,7 +12,7 @@ const CopyButton = ({ msg }) => {
 
   return (
     <Button variant="neutral" icon={<IconFileCopy />} onClick={() => copyText()} disabled={copied} className="w-[7rem]">
-      {copied ? "Copied!" : "Copy"}
+      {copied ? "已复制！" : "复制"}
     </Button>
   );
 };
@@ -86,7 +86,7 @@ export const StorageSummary = ({ target, storage, className, storageTypes = [] }
   return (
     <div className={className}>
       <DescriptionList>
-        <DescriptionList.Item term="Type">
+        <DescriptionList.Item term="类型">
           {(storageTypes ?? []).find((s) => s.name === storage.type)?.title ?? storage.type}
         </DescriptionList.Item>
 
@@ -99,7 +99,7 @@ export const StorageSummary = ({ target, storage, className, storageTypes = [] }
         </Oneof>
 
         <DescriptionList.Item
-          term="Status"
+          term="状态"
           help={[
             "Initialized: storage was added, but never synced; sufficient for starting URI link resolving",
             "Queued: sync job is in the queue, but not yet started",
@@ -109,7 +109,7 @@ export const StorageSummary = ({ target, storage, className, storageTypes = [] }
             "Completed: sync job completed successfully",
           ].join("\n")}
         >
-          {storageStatus === "Failed" || storageStatus === "Completed with errors" ? (
+          {storageStatus === "失败" || storageStatus === "Completed with errors" ? (
             <span
               className="cursor-pointer border-b border-dashed border-negative-border-subtle text-negative-content"
               onClick={handleButtonClick}
@@ -122,7 +122,7 @@ export const StorageSummary = ({ target, storage, className, storageTypes = [] }
         </DescriptionList.Item>
 
         {target === "export" ? (
-          <DescriptionList.Item term="Annotations" help={`${annotations_help}\n${total_annotations_help}`}>
+          <DescriptionList.Item term="标注" help={`${annotations_help}\n${total_annotations_help}`}>
             <Tooltip title={annotations_help}>
               <span>{last_sync_count}</span>
             </Tooltip>
@@ -131,7 +131,7 @@ export const StorageSummary = ({ target, storage, className, storageTypes = [] }
             </Tooltip>
           </DescriptionList.Item>
         ) : (
-          <DescriptionList.Item term="Tasks" help={`${tasks_added_help}\n${tasks_total_help}`}>
+          <DescriptionList.Item term="任务" help={`${tasks_added_help}\n${tasks_total_help}`}>
             <Tooltip title={`${tasks_added_help}\n${tasks_total_help}`} style={{ whiteSpace: "pre-wrap" }}>
               <span>{last_sync_count + tasks_existed}</span>
             </Tooltip>

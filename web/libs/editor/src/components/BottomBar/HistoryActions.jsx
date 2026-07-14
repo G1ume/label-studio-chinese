@@ -35,12 +35,12 @@ export const EditingHistory = observer(({ entity }) => {
           data-testid="bottombar-redo-button"
         />
       </Tooltip>
-      <Tooltip title="Reset">
+      <Tooltip title="重置">
         <Button
           variant="negative"
           look="string"
           size="small"
-          aria-label="Reset"
+          aria-label="重置"
           disabled={!history?.canUndo}
           onClick={() => history?.reset()}
           className="aspect-square"

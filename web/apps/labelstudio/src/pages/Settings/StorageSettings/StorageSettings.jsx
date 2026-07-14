@@ -181,5 +181,5 @@ export const StorageSettings = () => {
   );
 };
 
-StorageSettings.title = "Cloud Storage";
+StorageSettings.title = "云存储";
 StorageSettings.path = "/storage";

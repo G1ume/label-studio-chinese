@@ -102,7 +102,7 @@ export const Actions = ({ store }) => {
         icon={<IconSettings />}
         variant="neutral"
         look="string"
-        aria-label="Settings"
+        aria-label="设置"
         onClick={() => store.toggleSettings()}
         style={{
           height: 36,

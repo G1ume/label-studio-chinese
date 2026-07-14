@@ -195,7 +195,7 @@ export const HotkeysManager = () => {
         setDirtyState(newDirtyState);
 
         const sectionName =
-          sectionId === "settings" ? "Settings" : typedHotkeySections.find((s: Section) => s.id === sectionId)?.title;
+          sectionId === "settings" ? "设置" : typedHotkeySections.find((s: Section) => s.id === sectionId)?.title;
 
         if (toast) {
           toast.show({

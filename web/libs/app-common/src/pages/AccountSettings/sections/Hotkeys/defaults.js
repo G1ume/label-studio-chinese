@@ -667,7 +667,7 @@ export const HOTKEY_SECTIONS = [
 
   {
     id: "data_manager",
-    title: "Data Manager",
+    title: "数据管理",
     description: "Shortcuts for navigating and managing tasks in Project's Data Manager",
   },
 

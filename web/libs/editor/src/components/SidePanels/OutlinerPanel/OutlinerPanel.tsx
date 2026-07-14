@@ -109,7 +109,7 @@ const OutlinerEmptyState = () => (
         </span>
       </>
     }
-    learnMore={{ href: getDocsUrl("guide/labeling"), text: "Learn more", testId: "regions-panel-learn-more" }}
+    learnMore={{ href: getDocsUrl("guide/labeling"), text: "了解更多", testId: "regions-panel-learn-more" }}
   />
 );
 

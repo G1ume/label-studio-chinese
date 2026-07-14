@@ -84,7 +84,7 @@ type DateRangePickerProps = {
    */
   creationDate?: Date;
   /**
-   * Optional callback invoked when a floating range preset (e.g., "Last 7 days", "All Time") is selected.
+   * Optional callback invoked when a floating range preset (e.g., "最近7天", "All Time") is selected.
    * This allows the parent component to track which preset is currently active.
    * @param key - The key of the selected preset (e.g., "lastSeven", "allTime"), or undefined if custom dates are selected
    */

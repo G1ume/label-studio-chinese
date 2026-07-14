@@ -85,5 +85,5 @@ export const AnnotationSettings = () => {
   );
 };
 
-AnnotationSettings.title = "Annotation";
+AnnotationSettings.title = "标注";
 AnnotationSettings.path = "/annotation";

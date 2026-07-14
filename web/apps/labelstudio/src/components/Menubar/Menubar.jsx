@@ -224,8 +224,8 @@ export const Menubar = ({ enabled, defaultOpened, defaultPinned, children, onSid
             >
               <Menu>
                 {isFF(FF_HOMEPAGE) && <Menu.Item label="Home" to="/" icon={<IconHome />} data-external exact />}
-                <Menu.Item label="Projects" to="/projects" icon={<IconFolder />} data-external exact />
-                <Menu.Item label="Organization" to="/organization" icon={<IconPeople />} data-external exact />
+                <Menu.Item label="项目" to="/projects" icon={<IconFolder />} data-external exact />
+                <Menu.Item label="组织" to="/organization" icon={<IconPeople />} data-external exact />
 
                 <Menu.Spacer />
 

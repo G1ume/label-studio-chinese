@@ -30,7 +30,7 @@ import { EditableRegion } from "./EditableRegion";
 
 const EditableAudioModel = types.model("EditableAudioModel", {}).volatile(() => ({
   editableFields: [
-    { property: "start", label: "Start" },
+    { property: "start", label: "开始" },
     { property: "end", label: "End" },
   ],
 }));

@@ -113,7 +113,7 @@ export const ErrorWrapper = ({
                 </Button>
               )}
               {onGoBack && (
-                <Button onClick={onGoBack} aria-label="Go back">
+                <Button onClick={onGoBack} aria-label="返回">
                   Go Back
                 </Button>
               )}

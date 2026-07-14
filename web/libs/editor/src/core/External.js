@@ -56,12 +56,12 @@ function onGroundTruth() {}
 function onSelectAnnotation(annotation, previousAnnotation) {}
 
 /**
- * Called when "Accept" or "Fix + Accept" is pressed
+ * Called when "接受" or "Fix + Accept" is pressed
  */
 function onAcceptAnnotation(store, entity) {}
 
 /**
- * Called when "Reject" is pressed
+ * Called when "拒绝" is pressed
  */
 function onRejectAnnotation(store, entity) {}
 

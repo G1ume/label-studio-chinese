@@ -128,7 +128,7 @@ export interface MessageProps extends React.HTMLAttributes<HTMLDivElement> {
  * ```tsx
  * <Message
  *   variant="positive"
- *   title="Success"
+ *   title="成功"
  *   actions={<Button onClick={onContinue}>Continue</Button>}
  * >
  *   Your changes have been saved successfully.
